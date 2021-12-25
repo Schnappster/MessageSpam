@@ -3,6 +3,8 @@ spams a message
 
 **Need AHK for this to work**
 
+https://www.autohotkey.com/
+
 1. click onto the space to create your message on the application of your choice
 2. press F1
 3. have fun :S
