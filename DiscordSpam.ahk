@@ -1,5 +1,7 @@
-﻿F1::
-Msgbox, input spam message
+F1::
+Msgbox, input @username
+InputBox, username
+Msgbox, input optional Message
 InputBox, message
 Msgbox, Will spam %message%
 Msgbox, Input time it will spam it at (ms)
@@ -9,7 +11,9 @@ Msgbox, Will send message at %time%ms press f2 to stop the script
 Loop{
 	if breakvar = 1
 	break
-
+	
+	send, %username%
+	send, {enter}
 	send, %message%
 	send, {Enter}
 	send, {Enter}
