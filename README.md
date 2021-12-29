@@ -5,8 +5,9 @@ spams a message
 
 https://www.autohotkey.com/
 
-1. click onto the space to create your message on the application of your choice
-2. press F1
-3. have fun :S
+1. Run The script
+2. Make sure to click onto the chat box before hitting save
+
+Force stop the script using F2
 
 ***I AM NOT RESPONSIBLE FOR YOUR ACTIONS USE AT YOUR OWN RISK***
