@@ -1,3 +1,9 @@
+;-------------------------------------------------------------------------------------
+; dm me for help Shnappster#1718
+; 
+; Feel free to update the script however don't hand out the script under your name.
+;-------------------------------------------------------------------------------------
+
 Gui, New
 Gui, Show, W500 H500
 Gui, Add, Text,, Welcome To Shnappsters Spam Script
