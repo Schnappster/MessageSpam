@@ -1,22 +1,46 @@
-F1::
-Msgbox, input @username
-InputBox, username
-Msgbox, input optional Message
-InputBox, message
-Msgbox, Will spam %message%
-Msgbox, Input time it will spam it at (ms)
-InputBox, time
-Msgbox, Will send message at %time%ms press f2 to stop the script
+Gui, New
+Gui, Show, W500 H500
+Gui, Add, Text,, Welcome To Shnappsters Spam Script
+Gui, Add, Text,, Options:
+Gui, Add, CheckBox, gdiscord, Discord 
+Gui, Add, Button, x15 y465 w80 gcancel, Cancel
+return
+
+discord:
+Gui Cancel
+Gui, New
+Gui, Show, W500 H500
+Gui, Add, Text,, Discord Spam Setup
+Gui, Add, Text,, Username:
+Gui, Add, ComboBox, vDiscUserN
+Gui, Add, Text,, Message:
+Gui, Add, Edit, r9 vdiscmesg w400, write here
+Gui, Add, Text, Time(ms):
+Gui, Add, Edit
+Gui, Add, UpDown, vtime Range10-10000, 1400
+Gui, Add, Button, x400 y465 w80 gdsave, save
+Gui, Add, Button, x15 y465 w80 gcancel, Cancel
+return
+
+cancel: 
+	GuiClose:
+	ExitApp
+return
+
+dsave:
+Gui Cancel
 
 Loop{
 	if breakvar = 1
 	break
-	
-	send, %username%
+	Gui, Submit
+	send, %DiscUserN%
 	send, {enter}
-	send, %message%
+	Gui, Submit
+	send, %discmesg%
 	send, {Enter}
 	send, {Enter}
+	Gui, Submit
 	sleep %time%	
 
 	if breakvar = 1
@@ -25,10 +49,8 @@ Loop{
 breakvar = 0
 return
 
-F2::
-breakvar = 1
-return
 
-F11::
-Suspend
-return
+
+F2::
+ExitApp
+Return
