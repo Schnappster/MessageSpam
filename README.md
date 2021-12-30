@@ -9,6 +9,7 @@ https://www.autohotkey.com/
 2. Make sure to click onto the chat box before hitting save
 
 **GAMES TAB DOES NOT WORK**
+
 feel free to check it out and give me feed back on the ui however the code for it does not work
 
 Force stop the script using F2
