@@ -1,17 +1,8 @@
 # MessageSpam
-spams a message
+just does not work
 
-**Need AHK for this to work**
+idea is that under the game area when u place a message in all 3 boxes it will randomly choose one to send
 
-https://www.autohotkey.com/
+I would work on it more but Im about to ship out for basic so Im turning my focus into training atm
 
-1. Run The script
-2. Make sure to click onto the chat box before hitting save
-
-**GAMES TAB DOES NOT WORK**
-
-feel free to check it out and give me feed back on the ui however the code for it does not work
-
-Force stop the script using F2
-
-***I AM NOT RESPONSIBLE FOR YOUR ACTIONS USE AT YOUR OWN RISK***
+I will continue to work on it when I can
